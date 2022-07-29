@@ -3,8 +3,10 @@ import glob
 
 def main():
     matched_files = glob.glob("*.txt")
-    pattern = "nigga"
-    replacement = "REDACTED"
+    # the pattern you want to replce
+    pattern = "def"
+    # what you want to replce it with 
+    replacement = "fun"
     change_map = {}
 
     # the read operation for each file
